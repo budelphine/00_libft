@@ -4,7 +4,7 @@
 
 **How to use**
 
-```make``` -- to create libft.a
+```make``` -- to create libft.a\n
 ```make fclean``` -- to delete all .o file and libft.a
 
 **Result**
