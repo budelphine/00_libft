@@ -2,14 +2,14 @@
 Reimplementation of standard C &lt;libc> library function and more.
 
 ```
-void		    *ft_calloc(size_t count, size_t size);
+void  *ft_calloc(size_t count, size_t size);
 
-int					ft_memcmp(void *src, void *dest, size_t count);
-void				*ft_memccpy(void *dest, void *src, int ch, size_t count);
-void				*ft_memchr(void *src, int c, size_t n);
-void				*ft_memcpy(void *dest, void *src, size_t count);
-void				*ft_memmove(void *dest, void *src, size_t count);
-void				*ft_memset(void *dest, int ch, size_t count);
+int ft_memcmp(void *src, void *dest, size_t count);
+void  *ft_memccpy(void *dest, void *src, int ch, size_t count);
+void  *ft_memchr(void *src, int c, size_t n);
+void  *ft_memcpy(void *dest, void *src, size_t count);
+void  *ft_memmove(void *dest, void *src, size_t count);
+void  *ft_memset(void *dest, int ch, size_t count);
 
 char				*ft_strdup(char *str);
 size_t			ft_strlcat(char *dest, char *src, size_t size);
