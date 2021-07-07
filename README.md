@@ -1,4 +1,4 @@
-# _libft
+# :wave: _libft
 
 *Reimplementation of standard C &lt;libc> library function and more*
 
