@@ -1,7 +1,8 @@
 # 00_libft
 Reimplementation of standard C &lt;libc> library function and more.
 
-void				*ft_calloc(size_t count, size_t size);
+```
+void		*ft_calloc(size_t count, size_t size);
 
 int					ft_memcmp(void *src, void *dest, size_t count);
 void				*ft_memccpy(void *dest, void *src, int ch, size_t count);
@@ -54,3 +55,4 @@ int					ft_isprint(int c);
 
 int					ft_tolower(int ch);
 int					ft_toupper(int ch);
+```
